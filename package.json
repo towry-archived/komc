@@ -1,0 +1,26 @@
+{
+  "name": "komc",
+  "version": "0.1.0",
+  "description": "mock server starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towry/komc.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Towry Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/towry/komc/issues"
+  },
+  "homepage": "https://github.com/towry/komc#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "lodash": "^3.10.1"
+  }
+}
