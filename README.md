@@ -7,7 +7,7 @@ Set up your api in `lib/index.js`, use proxy to redirect your api request to the
 
 ### TODO
 
-[] create helpers
+[ ] create helpers
 
 ---
 
