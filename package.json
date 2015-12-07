@@ -21,6 +21,10 @@
   "homepage": "https://github.com/towry/komc#readme",
   "dependencies": {
     "express": "^4.13.3",
+    "komc-util": "^0.1.1",
     "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0"
   }
 }

@@ -1,3 +1,3 @@
 
 dev:
-	nodemon
+	DEBUG=http && nodemon

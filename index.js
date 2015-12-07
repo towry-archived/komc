@@ -16,8 +16,8 @@ app.use(express.static(__dirname + config.static));
 app.use('/api', require('./lib'));
 
 app.get('*', function (req, res) {
-  res.setHeader('Content-type', 'text/plain');
-  res.end('komc');
+  res.status(404);
+  res.json({status: 1, message: '404'});
 });
 
 app.listen(config.port);
